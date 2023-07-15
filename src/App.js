@@ -6,6 +6,8 @@ import FormPractice from './components/FormPractice';
 import UseStateObject from './components/UseStateObject';
 import SimpleTodoList from './components/SimpleTodoList';
 import ShortCircuit from './components/ShortCircuit';
+import SimpleForm from './components/forms/SimpleForm';
+
 const App = () => {
   return(
     <>
@@ -14,7 +16,8 @@ const App = () => {
       {/* <FormPractice/> */}
       {/* <UseStateObject /> */}
       {/* <SimpleTodoList/> */}
-      <ShortCircuit/>
+      {/* <ShortCircuit/> */}
+      <SimpleForm/>
     </>
   )
 }

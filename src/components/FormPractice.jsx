@@ -12,8 +12,12 @@ const FormPractice = () => {
   return (
     <>
     <form className='designing'>
-        <h1>Submit a Form</h1>
-      <label>Enter your name:
+      <h1>Submit a Form</h1>
+      <label htmlFor="email">Email: {" "}
+      <input type="text" name='email' id='email' />
+      </label>
+      <br/>
+      <label>Enter your name: {" "}
       <input 
         type="text" 
         name="username" 
@@ -22,7 +26,7 @@ const FormPractice = () => {
       />
       </label>
       <br/>
-      <label>Enter your age:
+      <label>Enter your age: {" "}
         <input 
           type="number" 
           name="age" 

@@ -32,3 +32,29 @@ button{
 .todosStyling button{
   padding: 20px 20px;
 }
+.simpleFormStyling{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 130px 300px;
+  background-color:rgba(25, 25, 255, 0.763);
+  width: 500px;
+  padding: 50px 50px;
+  color: white;
+  border-radius: 20px;
+}
+.simpleFormStyling div{
+  margin: 15px;
+}
+.simpleFormStyling input{
+  border-radius: 50px;
+  border: none;
+  padding: 6px;
+}
+.showStoreData{
+  background: rgba(25, 25, 255, 0.763);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
