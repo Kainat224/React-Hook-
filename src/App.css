@@ -23,3 +23,12 @@ button{
   padding: 15px 20px;
   border-radius: 50px;
 }
+.todosStyling{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.todosStyling button{
+  padding: 20px 20px;
+}
